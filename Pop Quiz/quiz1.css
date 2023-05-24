@@ -1,0 +1,13 @@
+
+h1 {
+    font-size: 2em;
+    padding: 20px;
+    margin: 50px;
+}
+
+p {
+    background-color: blue;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.logo {
+    background-color: darkslategray;
+    color: white;
+    grid-column: 1/2;
+}
+
+header {
+    grid-column: 2/-1;
+    background-color: blueviolet;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.content {
+    grid-column: 2/4;
+    grid-row: 2/6;
+    background-color: coral;
+}
+
+footer {
+    grid-column: 1/-1;
+    background-color: burlywood;
+}
